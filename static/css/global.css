@@ -1,0 +1,63 @@
+
+:root {
+    /* Colors */
+    --color--almost__white: hsl(0, 0%, 98% / var(--color--almost__white--opacity, 1));
+    --color--medium__gray: hsl(0, 0%, 41% / var(--color--medium__gray--opacity, 1));
+    --color--almost__black: hsl(0, 0%, 8% / var(--color--almost__black--opacity, 1));
+
+    /* Text */
+    --font__size: 18px;
+    --font__family: "Epilogue";
+    --font__weight--dflt: 500;
+    --font__weight--bold: 700;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Epilogue:400,500');
+
+html {
+    font-size: var(--font__size, 100%);
+    font-family: var(--font__family), sans-serif;
+} 
+
+body {
+    background: var(--color--almost__white);
+    font-weight: 400;
+    line-height: 1.75;
+    color: var(--color--almost__black);
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 3rem 0 1.38rem;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+h1, .text__size--max {
+    margin-top: 0;
+    font-size: 3.052rem;
+}
+
+h2, .text__size--xlg {
+    font-size: 2.441rem;
+}
+
+h3 {
+    font-size: 1.953rem;
+}
+
+h4, .text__size--lrg {
+    font-size: 1.563rem;
+}
+
+h5, .text__size--med {
+    font-size: 1.25rem;
+}
+
+small, .text__size--small {
+    font-size: 0.8rem;
+}
