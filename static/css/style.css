@@ -10,10 +10,44 @@
     color: hsl(228, 45%, 44%);
 }
 
-/* Utilities */
+.container {
+    width: 100%;
+    height: 100%;
+}
 
+.header__icon {}
+
+.header__nav {}
+
+.header__cta {}
+
+
+/* Utilities */
+.flex {
+    display: flex;
+}
+
+.center--all {
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile__flex--column {
+    flex-direction: column;
+}
 
 /* Blocks */
+.nav__item {
+    display: flex;
+}
+
+.nav__list {
+    list-style: none;
+}
 
 
 /* Exceptions */
+
+.nav__item--dropdown {
+    flex-direction: column;
+}
